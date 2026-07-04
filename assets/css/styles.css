@@ -1,71 +1,76 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    color:#926239;
-    line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #926239;
+  line-height: 1.6;
 }
 
 h1 {
-    font-size: 50px;
-    margin: 0;
+  font-size: 50px;
+  line-height: 1.2;
 }
 
 .firstp {
-    font-size: 20px;
-    margin: -10px 0 35px 0;
+  font-size: 20px;
 }
 .button {
-    text-decoration: none;
-    color: inherit;
-    font-size: 18px;
-    border: #926239 1px solid;
-    padding: 14px 20px;
-    border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  border: #926239 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px 0 0 0;
 }
 .button:hover {
-    background-color: #926239;
-    color:aliceblue;
+  background-color: #926239;
+  color: aliceblue;
 }
-.header { 
-    display: grid;
-    place-items: center; 
-    height: 100vh;
-    background-color: antiquewhite;
-    background-image: url(/assets/images/beachshowcase.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 0 20px;
+.header {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+  background-image: url(/assets/images/beachshowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 20px;
 }
 .section-1 {
-    padding: 20px;
-    background: #926239;
-    color: #fff;
-    text-align: center;  
+  padding: 20px;
+  background: #926239;
+  color: #fff;
+  text-align: center;
 }
 .section-2 {
-    padding: 20px;
-    background: #f4f4f4;
-    text-align: center;
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
 }
 .section-3 {
-    font-size: 0;
+  font-size: 0;
 }
-.box-1, .box-2, .box-3 {
-    padding: 20px;
-    display: inline-block;
-    width: calc(100% / 3);
-    vertical-align: top;
-    font-size: 17px;
+.box-1,
+.box-2,
+.box-3 {
+  padding: 20px;
+  display: inline-block;
+  width: calc(100% / 3);
+  vertical-align: top;
+  font-size: 17px;
 }
-.box-1, .box-3 {
-    background: #926239;
-    color: #fff;
+.box-1,
+.box-3 {
+  background: #926239;
+  color: #fff;
 }
 .box-2 {
-    background: #f9f9f9;
+  background: #f9f9f9;
 }
